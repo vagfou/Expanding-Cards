@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #003366;
   font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
@@ -16,7 +17,7 @@ body {
 
 .container {
   display: flex;
-  width: 90vw;
+  width: 98vw;
 }
 
 .panel {
@@ -24,11 +25,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 80vh;
-  border-radius: 50px;
+  border-radius: 30px;
   color: white;
   cursor: pointer;
   flex: 0.5;
-  margin: 10px;
+  margin: 5px;
   position: relative;
   transition: flex 0.7s ease-in;
 }
